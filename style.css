@@ -1,9 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/Bosch-Supergraphic.svg);
+    background-image: url(images/background-test.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -10%;
+    position: center;
+    display: flex;
 }
 div{
     background-color: rgba(255, 255, 255, 0.9);
@@ -11,7 +12,7 @@ div{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 80px;
+    padding: 69px;
     color: rgb(0, 0, 0);
 }
 input{
@@ -21,6 +22,7 @@ input{
     outline: none;
     font-size: 15px;
 }
+
 button{
     background-color: dodgerblue;
     border: none;
@@ -29,8 +31,14 @@ button{
     border-radius: 10px;
     color: white;
     font-size: 15px;
-    
 }
+.singup{
+    max-width: fit-content;
+}
+.login{
+    max-width: fit-content;
+}
+
 button:hover{
     background-color: deepskyblue;
     cursor: pointer;
